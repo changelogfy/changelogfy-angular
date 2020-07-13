@@ -1,27 +1,27 @@
-# ChangelogfyComponentLibrary
+<p align="left"><img src="https://changelogfy.com/images/brand/site/logo-header-color.png" width="200"></p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.11.
+This is a package for use simplified of [Changelogfy](https://changelogfy.com) with Angular
 
-## Development server
+[Documentation](https://help.changelogfy.com/en-us/article/how-use-changelogfy-with-reactjs-z9jlti/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+```sh
+npm i changelogfy-angular
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Bugs
 
-## Build
+You can open issue directly on this repository.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Improvements
 
-## Running unit tests
+You are welcome to create your Pull Request directly on this repository.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Security Vulnerabilities
 
-## Running end-to-end tests
+If you discover a security vulnerability within Changelogfy, please send an e-mail to Paulo Castellano via [paulo@changelogfy.com](mailto:paulo@changelogfy.com). All security vulnerabilities will be promptly addressed.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## License
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
