@@ -1,24 +1,27 @@
-# Changelogfy
+<p align="left"><img src="https://changelogfy.com/images/brand/site/logo-header-color.png" width="200"></p>
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12.
+This is a package for use simplified of [Changelogfy](https://changelogfy.com) with Angular
 
-## Code scaffolding
+[Documentation](https://help.changelogfy.com/en-us/article/how-use-changelogfy-with-reactjs-z9jlti/)
 
-Run `ng generate component component-name --project changelogfy` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project changelogfy`.
-> Note: Don't forget to add `--project changelogfy` or else it will be added to the default project in your `angular.json` file. 
+## Installation
 
-## Build
+```sh
+npm i changelogfy-angular
+```
 
-Run `ng build changelogfy` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Bugs
 
-## Publishing
+You can open issue directly on this repository.
 
-After building your library with `ng build changelogfy`, go to the dist folder `cd dist/changelogfy` and run `npm publish`.
+## Improvements
 
-## Running unit tests
+You are welcome to create your Pull Request directly on this repository.
 
-Run `ng test changelogfy` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Security Vulnerabilities
 
-## Further help
+If you discover a security vulnerability within Changelogfy, please send an e-mail to Paulo Castellano via [paulo@changelogfy.com](mailto:paulo@changelogfy.com). All security vulnerabilities will be promptly addressed.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## License
+
+This package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
