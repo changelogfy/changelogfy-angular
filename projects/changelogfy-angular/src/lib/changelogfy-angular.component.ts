@@ -14,9 +14,13 @@ export class ChangelogfyComponent implements OnInit {
   @Input() userEmail: string = null;
   @Input() customData: string = null;
 
+  scriptIsLoaded = false;
+
   constructor() {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  ngAfterViewInit() {
     this.start();
   }
 
@@ -30,6 +34,7 @@ export class ChangelogfyComponent implements OnInit {
       document.head.appendChild(script);
 
       script.addEventListener('load', () => {
+        this.scriptIsLoaded = true;
         resolve(script);
       });
 
@@ -39,10 +44,13 @@ export class ChangelogfyComponent implements OnInit {
     });
   }
 
-  start() {
+  async start() {
     return new Promise(async (resolve, reject) => {
       try {
-        await this.loadScript();
+        if (!this.scriptIsLoaded) {
+          await this.loadScript();
+        }
+
         resolve();
 
         // @ts-ignore
