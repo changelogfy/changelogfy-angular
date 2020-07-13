@@ -1,6 +1,18 @@
 {
   "name": "changelogfy-angular",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "private": false,
+  "description": "Changelogfy is a Software and Product Release Notes Tool",
+  "author": "Changelogfy",
+  "license": "MIT",
+  "homepage": "https://changelogfy.com",
+  "repository": "https://github.com/changelogfy/changelogfy-angular",
+  "keywords": [
+    "changelogfy",
+    "changelog",
+    "newsfeed",
+    "angular"
+  ],
   "peerDependencies": {
     "@angular/common": "^9.1.12",
     "@angular/core": "^9.1.12"
