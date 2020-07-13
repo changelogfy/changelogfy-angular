@@ -16,9 +16,9 @@
       "dom"
     ],
     "paths": {
-      "changelogfy": [
-        "dist/changelogfy/changelogfy",
-        "dist/changelogfy"
+      "changelogfy-angular": [
+        "dist/changelogfy-angular/changelogfy-angular",
+        "dist/changelogfy-angular"
       ]
     }
   },

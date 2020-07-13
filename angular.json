@@ -30,12 +30,10 @@
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ],
+              "fileReplacements": [{
+                "replace": "src/environments/environment.ts",
+                "with": "src/environments/environment.prod.ts"
+              }],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
@@ -44,8 +42,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "budgets": [
-                {
+              "budgets": [{
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
@@ -120,38 +117,38 @@
         }
       }
     },
-    "changelogfy": {
+    "changelogfy-angular": {
       "projectType": "library",
-      "root": "projects/changelogfy",
-      "sourceRoot": "projects/changelogfy/src",
+      "root": "projects/changelogfy-angular",
+      "sourceRoot": "projects/changelogfy-angular/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/changelogfy/tsconfig.lib.json",
-            "project": "projects/changelogfy/ng-package.json"
+            "tsConfig": "projects/changelogfy-angular/tsconfig.lib.json",
+            "project": "projects/changelogfy-angular/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/changelogfy/tsconfig.lib.prod.json"
+              "tsConfig": "projects/changelogfy-angular/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/changelogfy/src/test.ts",
-            "tsConfig": "projects/changelogfy/tsconfig.spec.json",
-            "karmaConfig": "projects/changelogfy/karma.conf.js"
+            "main": "projects/changelogfy-angular/src/test.ts",
+            "tsConfig": "projects/changelogfy-angular/tsconfig.spec.json",
+            "karmaConfig": "projects/changelogfy-angular/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/changelogfy/tsconfig.lib.json",
-              "projects/changelogfy/tsconfig.spec.json"
+              "projects/changelogfy-angular/tsconfig.lib.json",
+              "projects/changelogfy-angular/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
