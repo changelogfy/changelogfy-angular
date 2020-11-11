@@ -12,6 +12,7 @@ export class ChangelogfyComponent implements OnInit {
   @Input() userId: string = null;
   @Input() userName: string = null;
   @Input() userEmail: string = null;
+  @Input() isFollowing: boolean = true;
   @Input() customData: string = null;
 
   scriptIsLoaded = false;
@@ -64,6 +65,7 @@ export class ChangelogfyComponent implements OnInit {
             user_id: this.userId,
             user_name: this.userName,
             user_email: this.userEmail,
+            is_following: this.isFollowing,
             custom_data: this.customData,
           },
         });
